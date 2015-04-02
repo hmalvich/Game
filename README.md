@@ -1,2 +1,0 @@
-# Game
-Learning to C++
