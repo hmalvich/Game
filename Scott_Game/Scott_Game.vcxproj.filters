@@ -1,141 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
-    </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Header Files\Game">
-      <UniqueIdentifier>{eaf54485-c090-451a-be09-45a2daf1c684}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\System">
-      <UniqueIdentifier>{ec37526f-cca0-4e11-be9a-5aef2a560abe}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Game\Player">
-      <UniqueIdentifier>{fcfc9355-8555-4400-b56d-ecb4ea793eb3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Game\World">
-      <UniqueIdentifier>{7fb05e59-5a1a-4af0-bbb5-cb76edb8a551}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\System\FileManager">
-      <UniqueIdentifier>{8d695658-1c93-49b7-a3b9-e11536976649}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\System\Generator">
-      <UniqueIdentifier>{9eb09679-9349-4650-b03a-d7234a0551e6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Game">
-      <UniqueIdentifier>{2beaab96-f522-4868-8497-0ce17586760e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\System">
-      <UniqueIdentifier>{fa5e5ae7-a31f-41de-955d-00915e70acc4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Game\Player">
-      <UniqueIdentifier>{6a9385c7-faee-40f8-9954-fdf2d5a2e32c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Game\World">
-      <UniqueIdentifier>{5b7a2177-839b-4955-8a60-6b6fac302d6e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\System\Generator">
-      <UniqueIdentifier>{a29031ac-ff6c-4dfa-a519-c37ab7f7d07c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\System\FileManager">
-      <UniqueIdentifier>{07df6505-53c0-4e71-9040-51c2fce40e05}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Game\World\Creature">
-      <UniqueIdentifier>{334345cf-e371-4a2f-8d1b-3ae0c16acd91}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Game\World\Object">
-      <UniqueIdentifier>{867d3425-32d5-4c55-9e18-84de04b3df7f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Game\World\Creature\Skeleton">
-      <UniqueIdentifier>{4209a817-3b09-43c3-bb0c-932039b9f95f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Game\World\Object\Wall">
-      <UniqueIdentifier>{b42ba263-7015-406e-b9ac-f3bb476a2671}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Header Files\Game\World\Object\Tree">
-      <UniqueIdentifier>{a3db4125-ee8c-4aa6-bad0-ab2161e7db8a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Game\World\Creature">
-      <UniqueIdentifier>{0ed1ba40-9d86-4f8c-98fa-ed61ffe1ebc2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Game\World\Object">
-      <UniqueIdentifier>{b2f5f32f-2b75-4b34-a38f-94bda2649464}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Game\World\Creature\Skeleton">
-      <UniqueIdentifier>{38fd1f43-3450-4dcc-b023-f4f8bf5d0e28}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Game\World\Object\Wall">
-      <UniqueIdentifier>{49860d02-353e-4f02-8891-a3a1051bb179}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Game\World\Object\Tree">
-      <UniqueIdentifier>{e7f845b9-0411-46de-88b5-8725759756db}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Headers\Game\game.hpp">
-      <Filter>Header Files\Game</Filter>
-    </ClInclude>
-    <ClInclude Include="Headers\Game\Player\player.hpp">
-      <Filter>Header Files\Game\Player</Filter>
-    </ClInclude>
-    <ClInclude Include="Headers\Game\World\world.hpp">
-      <Filter>Header Files\Game\World</Filter>
-    </ClInclude>
-    <ClInclude Include="Headers\Game\World\Creature\creature.hpp">
-      <Filter>Header Files\Game\World\Creature</Filter>
-    </ClInclude>
-    <ClInclude Include="Headers\Game\World\Creature\Skeleton\skeleton.hpp">
-      <Filter>Header Files\Game\World\Creature\Skeleton</Filter>
-    </ClInclude>
-    <ClInclude Include="Headers\Game\World\Object\object.hpp">
-      <Filter>Header Files\Game\World\Object</Filter>
-    </ClInclude>
-    <ClInclude Include="Headers\Game\World\Object\Tree\tree.hpp">
-      <Filter>Header Files\Game\World\Object\Tree</Filter>
-    </ClInclude>
-    <ClInclude Include="Headers\Game\World\Object\Wall\wall.hpp">
-      <Filter>Header Files\Game\World\Object\Wall</Filter>
-    </ClInclude>
-    <ClInclude Include="Headers\main.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClInclude Include="Headers\main.hpp" />
+    <ClInclude Include="Headers\Game\game.hpp" />
+    <ClInclude Include="Headers\Game\Player\player.hpp" />
+    <ClInclude Include="Headers\Game\World\Creature\creature.hpp" />
+    <ClInclude Include="Headers\Game\World\Creature\Skeleton\skeleton.hpp" />
+    <ClInclude Include="Headers\Game\World\Object\object.hpp" />
+    <ClInclude Include="Headers\Game\World\Object\Tree\tree.hpp" />
+    <ClInclude Include="Headers\Game\World\Object\Wall\wall.hpp" />
+    <ClInclude Include="Headers\Game\World\Tile\tile.hpp" />
+    <ClInclude Include="Headers\Game\World\world.hpp" />
+    <ClInclude Include="Headers\Game\World\Tile\desert.hpp" />
+    <ClInclude Include="Headers\Game\World\Tile\forest.hpp" />
+    <ClInclude Include="Headers\Game\World\Tile\plains.hpp" />
+    <ClInclude Include="Headers\Game\World\Tile\asphalt.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Game\game.cpp">
-      <Filter>Source Files\Game</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Game\Player\player.cpp">
-      <Filter>Source Files\Game\Player</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Game\World\world.cpp">
-      <Filter>Source Files\Game\World</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Game\World\Creature\creature.cpp">
-      <Filter>Source Files\Game\World\Creature</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Game\World\Creature\Skeleton\skeleton.cpp">
-      <Filter>Source Files\Game\World\Creature\Skeleton</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Game\World\Object\object.cpp">
-      <Filter>Source Files\Game\World\Object</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Game\World\Object\Wall\wall.cpp">
-      <Filter>Source Files\Game\World\Object\Wall</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\Game\World\Object\Tree\tree.cpp">
-      <Filter>Source Files\Game\World\Object\Tree</Filter>
-    </ClCompile>
+    <ClCompile Include="Source\Game\game.cpp" />
+    <ClCompile Include="Source\Game\Player\player.cpp" />
+    <ClCompile Include="Source\Game\World\Creature\creature.cpp" />
+    <ClCompile Include="Source\Game\World\Creature\Skeleton\skeleton.cpp" />
+    <ClCompile Include="Source\Game\World\Object\object.cpp" />
+    <ClCompile Include="Source\Game\World\Object\Tree\tree.cpp" />
+    <ClCompile Include="Source\Game\World\Object\Wall\wall.cpp" />
+    <ClCompile Include="Source\Game\World\world.cpp" />
+    <ClCompile Include="Source\main.cpp" />
+    <ClCompile Include="Source\Game\World\Tile\tile.cpp" />
+    <ClCompile Include="Source\Game\World\Tile\asphalt.cpp" />
+    <ClCompile Include="Source\Game\World\Tile\desert.cpp" />
+    <ClCompile Include="Source\Game\World\Tile\forest.cpp" />
+    <ClCompile Include="Source\Game\World\Tile\plains.cpp" />
   </ItemGroup>
 </Project>

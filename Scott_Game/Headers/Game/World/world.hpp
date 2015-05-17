@@ -17,6 +17,14 @@
         #include "Object/Tree/tree.hpp"
         #include "Object/Wall/wall.hpp"
 
+        // TILES
+        #include "Tile/asphalt.hpp"
+        #include "Tile/desert.hpp"
+        #include "Tile/plains.hpp"
+        #include "Tile/forest.hpp"
+
+    #include <random>
+
     class World : public sf::Drawable, sf::Transformable {
 
         public:
@@ -25,7 +33,8 @@
         private:
             std::vector<Creature> _creatures;
             std::vector<Object> _objects;
-            
+            std::vector<Tile> _tiles;
+
             void InitializeWorld();
 
             virtual void draw(sf::RenderTarget& target, sf::RenderStates states) const;

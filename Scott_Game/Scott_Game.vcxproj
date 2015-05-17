@@ -10,6 +10,38 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers\Game\game.hpp" />
+    <ClInclude Include="Headers\Game\Player\player.hpp" />
+    <ClInclude Include="Headers\Game\World\Creature\creature.hpp" />
+    <ClInclude Include="Headers\Game\World\Creature\Skeleton\skeleton.hpp" />
+    <ClInclude Include="Headers\Game\World\Object\object.hpp" />
+    <ClInclude Include="Headers\Game\World\Object\Tree\tree.hpp" />
+    <ClInclude Include="Headers\Game\World\Object\Wall\wall.hpp" />
+    <ClInclude Include="Headers\Game\World\Tile\asphalt.hpp" />
+    <ClInclude Include="Headers\Game\World\Tile\desert.hpp" />
+    <ClInclude Include="Headers\Game\World\Tile\forest.hpp" />
+    <ClInclude Include="Headers\Game\World\Tile\plains.hpp" />
+    <ClInclude Include="Headers\Game\World\Tile\tile.hpp" />
+    <ClInclude Include="Headers\Game\World\world.hpp" />
+    <ClInclude Include="Headers\main.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Game\game.cpp" />
+    <ClCompile Include="Source\Game\Player\player.cpp" />
+    <ClCompile Include="Source\Game\World\Creature\creature.cpp" />
+    <ClCompile Include="Source\Game\World\Creature\Skeleton\skeleton.cpp" />
+    <ClCompile Include="Source\Game\World\Object\object.cpp" />
+    <ClCompile Include="Source\Game\World\Object\Tree\tree.cpp" />
+    <ClCompile Include="Source\Game\World\Object\Wall\wall.cpp" />
+    <ClCompile Include="Source\Game\World\Tile\asphalt.cpp" />
+    <ClCompile Include="Source\Game\World\Tile\desert.cpp" />
+    <ClCompile Include="Source\Game\World\Tile\forest.cpp" />
+    <ClCompile Include="Source\Game\World\Tile\plains.cpp" />
+    <ClCompile Include="Source\Game\World\Tile\tile.cpp" />
+    <ClCompile Include="Source\Game\World\world.cpp" />
+    <ClCompile Include="Source\main.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{5DE41D6F-2DB7-4E17-92C2-B26C368A4533}</ProjectGuid>
     <RootNamespace>Scott_Game</RootNamespace>
@@ -69,28 +101,6 @@
       <AdditionalDependencies>sfml-main.lib;sfml-system.lib;sfml-window.lib;sfml-graphics.lib;sfml-audio.lib;sfml-network.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="Headers\Game\game.hpp" />
-    <ClInclude Include="Headers\Game\Player\player.hpp" />
-    <ClInclude Include="Headers\Game\World\Creature\creature.hpp" />
-    <ClInclude Include="Headers\Game\World\Creature\Skeleton\skeleton.hpp" />
-    <ClInclude Include="Headers\Game\World\Object\object.hpp" />
-    <ClInclude Include="Headers\Game\World\Object\Tree\tree.hpp" />
-    <ClInclude Include="Headers\Game\World\Object\Wall\wall.hpp" />
-    <ClInclude Include="Headers\Game\World\world.hpp" />
-    <ClInclude Include="Headers\main.hpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Source\Game\game.cpp" />
-    <ClCompile Include="Source\Game\Player\player.cpp" />
-    <ClCompile Include="Source\Game\World\Creature\creature.cpp" />
-    <ClCompile Include="Source\Game\World\Creature\Skeleton\skeleton.cpp" />
-    <ClCompile Include="Source\Game\World\Object\object.cpp" />
-    <ClCompile Include="Source\Game\World\Object\Tree\tree.cpp" />
-    <ClCompile Include="Source\Game\World\Object\Wall\wall.cpp" />
-    <ClCompile Include="Source\Game\World\world.cpp" />
-    <ClCompile Include="Source\main.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
